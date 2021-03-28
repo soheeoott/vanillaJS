@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>바닐라 JS로 그림판 만들기</title>
+</head>
+<body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+        <div class="controls_range">
+            <input type="range" id="jsRange" min="0.1" max="5.0" value="2.5" step="0.1"/> 
+        </div>
+        <div class="controls_btns">
+            <button id="jsMode">Fill</button>
+            <button id="jsSave">Save</button>
+        </div>
+        <!-- <a download=""></a> 링크로 가는 대신 URL 다운로드 지시  -->
+        <div id="jsColors" class="controls_colors">
+            <div class="controls_color jsColor" style="background-color:#2c2c2c;"></div>
+            <div class="controls_color jsColor" style="background-color:white;"></div>
+            <div class="controls_color jsColor" style="background-color:#FF3B30;"></div>
+            <div class="controls_color jsColor" style="background-color:#FF9500;"></div>
+            <div class="controls_color jsColor" style="background-color:#FFCC00;"></div>
+            <div class="controls_color jsColor" style="background-color:#4CD963;"></div>
+            <div class="controls_color jsColor" style="background-color:#5AC8FA;"></div>
+            <div class="controls_color jsColor" style="background-color:#0579FF;"></div>
+            <div class="controls_color jsColor" style="background-color:#5856D6;"></div>
+        </div>
+    </div>
+    <script src="js/canvas.js"></script>
+</body>
+</html>
