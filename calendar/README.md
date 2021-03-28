@@ -1,4 +1,4 @@
-### URL [🔗](https://soheeoott.github.io/vanilaJS/calendar/index.html)
+### URL [🔗](https://soheeoott.github.io/vanillaJS/calendar/)
 ---
 #### ✅ 오늘 표시  
 #### ✅ 이전 달  

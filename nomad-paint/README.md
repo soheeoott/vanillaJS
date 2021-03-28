@@ -1,4 +1,4 @@
-### URL [🔗](https://soheeoott.github.io/vanilaJS/nomad-paint/index.html)
+### URL [🔗](https://soheeoott.github.io/vanilaJS/nomad-paint/)
 ---
 #### ✅ Canvas API
 #### ✅ 선의 색상 변경  
